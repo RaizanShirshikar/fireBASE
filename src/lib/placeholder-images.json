@@ -1,3 +1,130 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A stylish woman in a chic outfit walking down a European street.",
+      "imageUrl": "https://picsum.photos/seed/hero1/1920/1080",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "category-women",
+      "description": "A collection of women's clothing elegantly arranged.",
+      "imageUrl": "https://picsum.photos/seed/catwomen/600/800",
+      "imageHint": "womens fashion"
+    },
+    {
+      "id": "category-men",
+      "description": "A man wearing a stylish tailored suit.",
+      "imageUrl": "https://picsum.photos/seed/catmen/600/800",
+      "imageHint": "mens fashion"
+    },
+    {
+      "id": "category-accessories",
+      "description": "A flat lay of various fashion accessories like a watch, sunglasses, and a wallet.",
+      "imageUrl": "https://picsum.photos/seed/catacc/600/800",
+      "imageHint": "fashion accessories"
+    },
+    {
+      "id": "category-footwear",
+      "description": "A pair of classic leather shoes.",
+      "imageUrl": "https://picsum.photos/seed/catfoot/600/800",
+      "imageHint": "leather shoes"
+    },
+    {
+      "id": "product-blouse-1",
+      "description": "Front view of a white silk blouse on a mannequin.",
+      "imageUrl": "https://picsum.photos/seed/blouse1/600/800",
+      "imageHint": "silk blouse"
+    },
+    {
+      "id": "product-blouse-2",
+      "description": "Side view of a white silk blouse, showing the drape of the fabric.",
+      "imageUrl": "https://picsum.photos/seed/blouse2/600/800",
+      "imageHint": "white blouse"
+    },
+    {
+      "id": "product-trench-1",
+      "description": "A woman wearing a classic beige trench coat.",
+      "imageUrl": "https://picsum.photos/seed/trench1/600/800",
+      "imageHint": "trench coat"
+    },
+    {
+      "id": "product-trench-2",
+      "description": "Detail shot of the trench coat's belt and fabric.",
+      "imageUrl": "https://picsum.photos/seed/trench2/600/800",
+      "imageHint": "coat detail"
+    },
+    {
+      "id": "product-shirt-men-1",
+      "description": "A man wearing a crisp white linen shirt.",
+      "imageUrl": "https://picsum.photos/seed/shirtmen1/600/800",
+      "imageHint": "linen shirt"
+    },
+    {
+      "id": "product-shirt-men-2",
+      "description": "Close-up of the linen shirt's texture and buttons.",
+      "imageUrl": "https://picsum.photos/seed/shirtmen2/600/800",
+      "imageHint": "shirt texture"
+    },
+    {
+      "id": "product-backpack-1",
+      "description": "A sleek black backpack against a neutral background.",
+      "imageUrl": "https://picsum.photos/seed/backpack1/600/800",
+      "imageHint": "black backpack"
+    },
+    {
+      "id": "product-boots-1",
+      "description": "A pair of dark brown suede Chelsea boots.",
+      "imageUrl": "https://picsum.photos/seed/boots1/600/800",
+      "imageHint": "suede boots"
+    },
+    {
+      "id": "product-boots-2",
+      "description": "A person wearing the suede Chelsea boots with cuffed jeans.",
+      "imageUrl": "https://picsum.photos/seed/boots2/600/800",
+      "imageHint": "wearing boots"
+    },
+    {
+      "id": "product-sweater-1",
+      "description": "A grey cashmere v-neck sweater folded neatly.",
+      "imageUrl": "https://picsum.photos/seed/sweater1/600/800",
+      "imageHint": "cashmere sweater"
+    },
+    {
+      "id": "product-jeans-1",
+      "description": "A pair of light-wash high-waist denim jeans.",
+      "imageUrl": "https://picsum.photos/seed/jeans1/600/800",
+      "imageHint": "denim jeans"
+    },
+    {
+      "id": "product-tote-1",
+      "description": "A large brown leather tote bag.",
+      "imageUrl": "https://picsum.photos/seed/tote1/600/800",
+      "imageHint": "leather tote"
+    },
+    {
+      "id": "product-sneakers-1",
+      "description": "A pair of clean, white minimalist leather sneakers.",
+      "imageUrl": "https://picsum.photos/seed/sneakers1/600/800",
+      "imageHint": "white sneakers"
+    },
+    {
+      "id": "product-sunglasses-1",
+      "description": "A pair of classic aviator sunglasses.",
+      "imageUrl": "https://picsum.photos/seed/sunglasses1/600/800",
+      "imageHint": "aviator sunglasses"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar of a female user.",
+      "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      "imageHint": "woman avatar"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar of a male user.",
+      "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026704e",
+      "imageHint": "man avatar"
+    }
+  ]
 }
