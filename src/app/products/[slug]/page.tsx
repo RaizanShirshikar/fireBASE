@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from 'react';
+import { useState, use, useMemo } from 'react';
 import Image from 'next/image';
 import { products } from '@/lib/data';
 import { notFound } from 'next/navigation';
@@ -14,7 +14,8 @@ import { Recommendations } from '@/components/recommendations';
 import type { Variant } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
+export default function ProductPage({ params: paramsPromise }: { params: Promise<{ slug: string }> }) {
+  const params = use(paramsPromise);
   const product = products.find(p => p.slug === params.slug);
   const { addToCart, cartItems } = useCart();
 

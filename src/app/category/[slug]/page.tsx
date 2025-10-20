@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, use } from 'react';
 import { products, categories } from '@/lib/data';
 import { ProductCard } from '@/components/product-card';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,7 +10,8 @@ import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Star } from 'lucide-react';
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default function CategoryPage({ params: paramsPromise }: { params: Promise<{ slug: string }> }) {
+  const params = use(paramsPromise);
   const category = categories.find(c => c.slug === params.slug);
   const categoryProducts = useMemo(() => products.filter(p => params.slug === 'all' || p.category === params.slug), [params.slug]);
 
